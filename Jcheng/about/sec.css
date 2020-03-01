@@ -1,0 +1,82 @@
+#l6{
+    margin: auto;
+    height: 100%;
+    width: 60%;
+    float: left;
+}
+#r4{
+    margin: auto;
+    height: 100%;
+    width: 100%;
+}
+#all{
+    margin: auto;
+}
+#l6,#r4{
+    font-size: 19pt;
+    font-family: 楷体,黑体;
+}
+.yangshi{
+    font-size: 25px;
+    font-family: 黑体,楷体;
+}
+.dibu{
+    margin: auto;
+    position: absolute;
+    bottom: 0px;
+    width: 78%;
+}
+.dingbu{
+    margin: auto;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 20%;
+}
+.zhong{
+    margin: auto;
+    width: 100%;
+    height: 70%;
+}
+.top{
+    margin: auto;
+    width: 100%;
+}
+#l4{
+    margin: auto;
+    height: 100%;
+    width: 40%;
+    float: left;
+}
+#r6{
+    margin: auto;
+    height: 100%;
+    width: 100%;
+}
+#l7{
+    margin: auto;
+    width: 70%;
+    height: 100%;
+    float: left;
+}
+#r3{
+    margin: auto;
+    height: 100%;
+    width: 100%;
+}
+.zhengwen{
+    font-size: 15px;
+    font-family: 宋体,黑体;
+}
+.biaoti{
+    font-size: 30px;
+    font-family: 楷体,黑体;
+}
+.hang{
+    width: 100%;
+    margin: auto;
+}
+#middle{
+    width: 100%;
+    margin: auto;
+}

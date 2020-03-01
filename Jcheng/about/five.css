@@ -1,0 +1,52 @@
+/*块*/
+div.father{
+    width: 1920px;
+}
+div.sonl{
+    width: 300px;
+    /*border-right: solid 5px blue;*/
+    float: left;
+}
+div.main{
+    margin-left: 400px;
+    min-height: 1000px;
+    width: 1500px;
+}
+div.top{
+    width: 1500px;
+    min-height: 70px;
+    background-color: red;
+}
+div.midd{
+    width: 100%;
+    min-height: 30px;
+}
+div.middl{
+    width: 900px;
+    /*float: left;*/
+}
+div.middr{
+    min-width: 50px ;
+}
+div.bottom{
+    width: 100%;
+    min-height: 20px;
+    background-color: blue;
+}
+
+
+
+
+/*字体*/
+.zhengwen{
+    font-family: 宋体;
+    font-size: 25px;
+    text-align: left;
+}
+.biaoti{
+    font-family: 黑体;
+    font-size: 45px;
+}
+.photo{
+    margin: auto;
+}
