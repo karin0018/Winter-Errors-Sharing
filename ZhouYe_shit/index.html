@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <title>404 Not Found (×)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+
+    <!-- CSS主题文件-->
+    <link href="style.css" type="text/css" rel="stylesheet" media="all">
+</head>
+<body>
+	<!--侧边栏-->
+    <div class="side-nav content">
+		<!--侧边栏顶部-->>
+		<div class="side-nav top">
+			<img src="bin.png"  class="nav-img">
+			<h1 class="top-intro h" style="color:#fff"><a href="index.html">zy的垃圾桶</a></h1>
+			<p class="top-intro p">当我在做这张网页的时候我在做什么</p>
+        </div>
+		<!-- 侧边导航栏 -->
+        <header>
+			<div class="nav-menu">
+				<nav class="auto-menu">
+						<ul class="menu">
+							<li class="homepage"><a href="#home" class="scroll">首页</a></li>
+							<li class="list-item"><a href="#about" class="scroll">关于本站</a></li>
+							<li class="list-item"><a href="#havedone" class="scroll">这个寒假干了甚么</a></li>
+							<li class="list-item"><a href="#history" class="scroll">更新历史</a></li>
+                            <li class="list-item"><a href="#me" class="scroll">关于我自己</a></li>
+                        </ul>
+				</nav>
+			</div>
+		</header>
+	</div>
+	
+	<!--主要内容部分-->
+    <div class="main">
+		<!--首页背景-->
+        <div class="banner" id="home">
+			<!--刷新网页更换句子，其实搭配更换背景更好，但是还没做出来-->
+			<div class="random-words">
+				<h2><script src="random.js"></script></h2>
+			</div>
+			<!--//刷新换句子-->
+			<div class="container">
+                <div class="text-center">
+                    <h3>表面上是一个网站，实际上是一个垃圾桶</h3>
+					<p class="intro">还在一边学一边做前端。作为什么都不会的菜狗，就拿这个网站练手，什么新学会的东西都往里塞就好了。</p>
+					<a class="botton" href="#about" role="button">点击开始翻垃圾桶</a>
+                </div>
+            </div>
+		</div>
+		<!-- 一点简介 -->
+		<section class="about" id="about">
+			<h2 class="article-head first">关于本站</h2>
+			<h4 class="article-head second">曾经在某个blog上看见一句话：“记录自己和整理自己的经验，仅供自己参考，如果恰好对别人有用，那也是一件功德”</h4>
+  			<p class="article-inner">既然现在在一点点地自学前端的知识，那么就准备这个网页打算做成一个长期的计划。把学来的东西都用在这上面看效果会如何，最后做成一只花里胡哨的缝合怪也说不定(×)。若是有时间，大概也会写两篇blog，多少记录下我曾学过的这些东西，正如上面所说的。</p>
+		</section>
+		<!-- 摸鱼寒假 -->
+		<section class="havedone" id="havedone">
+			<div class="container">
+				<h3 class="article-head first"> 寒假里都做了些什么</h3>
+				<p class="article-inner">自学完了HTML5和CSS3，但是还远不能熟练使用。这个网页还是一边查着手册一边磕磕绊绊的打出来的，CSS用的也不算好。Javascript更是刚刚开始学，还不会用，总的来说还是学（我）的（太）慢（菜）了</p>
+				<p class="article-inner">能做完这个小东西费这么大功夫，最后完成的时候还是很有成就感的，但这学期可能是跟不上大佬们的进度了，感觉事情好多啊~~能学多少是多少吧，哪怕给项目做不了贡献的，自己能学到点东西也不错。</p>
+			</div>
+		</section>
+		<!-- 这个网站的变化过程 -->
+       <div class="history" id="history">
+        	<h3 class="article-head first"> 更新历史</h3>
+       			<ul class="update-history">
+            		<li>0.1.0.200224 完成HTML文档和CSS3文件，网页初步完成</li>
+           			<li>0.1.1.200227 修改了部分CSS文件，改变了部分模块的表现形式</li>
+            		<li>0.2.0.200228 增加了刷新页面更换banner句子的功能</li>
+        		</ul>		
+		</div>
+		<!-- 先留个空，以后想加什么再加 -->
+		 <section class="me" id="me">
+			<h3 class="article-head first"> 关于</h3>
+				<p class="article-inner"> 这个人很懒，什么都没留下XD) </p>
+		</section>
+    </div> 
+</body>
+</html>
