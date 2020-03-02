@@ -1,0 +1,228 @@
+html {
+    scroll-behavior: smooth;
+  }
+body {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	background: #fff;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+a:link {
+    text-decoration: none;
+    color:#fff;
+}
+a:visited {
+    text-decoration: none;
+    color:#fff;
+}
+a:hover {
+    text-decoration: none;
+    color:#fff;
+}
+a:active {
+    text-decoration: none;
+    color:#fff;
+}
+p {
+    margin: 0;
+    color: #777;
+    font-size: 17px;
+    line-height: 1.9em;
+    letter-spacing: 1px;
+}
+ul {
+	margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+/*侧边栏*/
+/*圆形图片，类似头像效果*/
+.nav-img {
+    height: 90px;
+    width: 90px;
+    border-radius:50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    margin-top: 15px
+}
+.side-nav.top{
+    padding: 0;
+}
+nav ul li {
+    padding: 0.6rem;
+}
+/*侧边栏填色*/
+header {
+    position: relative;
+    z-index: 9;
+    width: 100%;
+    padding-top: 10em;
+}
+nav {
+    margin: 0;
+    padding: 0;
+}
+nav.auto-menu {
+    text-align:center;
+}
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+}
+nav ul li {
+    margin: 0px;
+    display: block;
+}
+nav a {
+    color: #ffffff;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 17px;
+    opacity: 0.7;
+}
+.top-intro.h {
+    font-size: 30px;
+    color: #fff !important;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+.top-intro.p {
+    margin-top: 0.5rem;
+    font-style: italic;
+    color: rgb(138, 139, 139);
+    font-size: 21px;
+    letter-spacing: 1px;
+    line-height: 1.2;
+}
+.side-nav {
+	height: 100%;
+    width: 15%;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background: #5e5d5d;
+	overflow-x: hidden;
+    padding-top: 20px;
+    float: left;
+}
+.content {
+    text-align: center;
+}
+.menu {
+    padding: 2em 1em;
+}
+.main {
+    margin: 0;
+    margin-left: 15%;
+    padding: 0px;
+}
+.banner {
+    color:#fff;
+    background: url(banner.jpg) no-repeat bottom;
+    background-size: cover;
+    padding: 20vw 0;
+}
+.container {
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.random-words {
+    position: absolute;
+    width: 80%;
+    top: 10%;
+    text-align: center;
+    font-size: 1em;
+}
+.text-center {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 2em;
+}
+.botton {
+    padding: 10px 40px;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 14px;
+    text-transform: uppercase;
+    background: none;
+    border: 1px solid #fff;
+	transition: 0.5s all;
+    opacity:0.7;
+    margin-top: 3rem;
+}
+.intro {
+    font-size: 18px;
+    width: 78%;
+    letter-spacing: 2px;
+    color: rgb(206, 206, 206);
+    font-weight: 400;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+}
+.about {
+    padding: 5em 5em;
+    text-align: left;
+    background: #fff;
+}
+.article-head.first {
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    line-height: 1.25em;
+    color: #5e5d5d;
+    margin-bottom: 1.5rem;
+}
+.article-head.second {
+    font-size: 1.2em;
+    color: #777;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    line-height: 1.25em;
+}
+.article-inner {
+    font-size: 1em;
+    line-height: 1.8em;
+    letter-spacing: 0.05em;
+    color: black;
+    font-weight: 400;
+    margin-top: 3rem;
+}
+.havedone {
+    padding: 5em 5em;
+    text-align: left;
+    background: #fff;
+    border-top: solid 5px #f3f3f3;
+}
+.history {
+    padding: 5em 5em;
+    background: #fff;
+    border-top: solid 5px #f3f3f3;
+}
+.me {
+    padding: 5em 5em;
+    background: #fff;
+    border-top: solid 5px #f3f3f3;
+}
+.update-history {
+    font-size: 1em;
+    line-height: 1.8em;
+    letter-spacing: 0.05em;
+    color: black;
+    font-weight: 400;
+    margin-top: 3rem;
+}
