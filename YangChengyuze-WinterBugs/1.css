@@ -1,0 +1,53 @@
+body
+{
+    background-image:url(foggy.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.aside
+{
+    left: 20px;
+    top: 20px;
+    width: 30%;
+    height: 500px;
+    background-color: rgba(243, 187, 114, 0.7);
+    font-size: 20px;
+    color:#000000;
+    position: absolute;
+    text-align: center;
+}
+.text p
+{
+    margin: 20px;
+    text-align: left;
+}
+.main
+{
+    left: 35%;
+    top: 10px;
+    width: 60%;
+    height: 100%;
+    background-color: rgba(114, 243, 215, 0.8);
+    font-size: 20px;
+    color:#000000;
+    position: relative;
+    text-align: left;
+    padding-bottom:100px；
+}
+.main p,h1
+{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.footer
+{
+    position: relative;
+    background-color: darkgray;
+    color: #333;
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+}
