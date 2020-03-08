@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>home</title>
+    <link rel="stylesheet" type="text/css" href="styles/home.css"/>
+
+</head>
+<body>
+<div class="header">
+    <h1>My Home Page</h1>
+    <p>欢迎来到我的主页</p>
+</div>
+<div class="center">
+    <div class="mypic"><img src="images/mypic.jpg"></div>
+</div>
+<br/>
+<div id="wrapper">
+    <!--Nav-->
+    <nav id="nav">
+        <ul>
+            <li><a href="#intro" class="active">关于我</a></li>
+            <li><a href="#holiday">假期生活</a></li>
+            <li><a href="#future">未来规划</a></li>
+        </ul>
+    </nav>
+    <!--Main-->
+    <div id="main">
+        <!--Introduction-->
+        <section id="intro" class="main">
+            <div class="spotlight">
+                <div class="content">
+                    <h2>Self Introduction</h2>
+                    <ul>
+                        <li>姓名：吕瑞</li>
+                        <li>性别：女</li>
+                        <li>院系年级：计算机学院 18级</li>
+                        <li>联系方式：<a href="mailto:karinlv777@gmail.com?subject=Hello"
+                                    target="_blank">karin777@gmail.com</a></li>
+                        <li style="white-space:pre-wrap">常做的事：学习！！ 听音乐(-.-) 慢跑(*.*) 阅读 :) 追剧 :)</li>
+                        <li>现有技能:
+                            <ul>
+                                <li> C 编程（较熟练）</li>
+                                <li> python （凑合）</li>
+                                <li>HTML + CSS （凑合）</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="ploaroid">
+                    <img src="images/chun.jpg" style="width: 100%">
+                    <div class="container">
+                        <p>“人间四月芳菲尽 &emsp;山寺桃花始盛开
+                            <br/><br/>
+                            长恨春归无觅处 &emsp;不知转入此中来”
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="holiday" class="main">
+            <div class="spotlight">
+                <div class="content">
+                    <h2>假期生活</h2>
+                    <ul>
+                        <li>复习了数据结构，C 编程能力提高了一些呢</li>
+                        <li>学习 HTML + CSS （部分），学习成果就是这份作业</li>
+                        <li>学英语（指背单词）还是勉强做到了</li>
+                        <li>给去年暑假写了一个复盘（我也想知道为什么今年寒假才写 orz）</li>
+                        <li>追番追剧追漫画</li>
+                        <li>补觉zzZZZ</li>
+                    </ul>
+                </div>
+                <div class="ploaroid">
+                    <img src="images/xia.jpg" style="width: 100%">
+                    <div class="container">
+                        <p>“绿树浓阴夏日长 &emsp;楼台倒影入池塘
+                            <br/><br/>
+                            水晶帘动微风起 &emsp;满园蔷薇一院香”
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="future" class="main">
+            <div class="spotlight">
+                <div class="content">
+                    <h2>未来规划</h2>
+                    <ul>
+                        <li>好好学习专业课！！</li>
+                        <li>在写这个网页的时候发现有很多想实现的交互功能都不能很好地实现，所以 JS 和框架的学习也提上了日程</li>
+                        <li>学英语不能停</li>
+                        <li>节能减排创新大赛（学分！）</li>
+                        <li>出去旅游一次（如果有时间的话）</li>
+                    </ul>
+                </div>
+                <div class="ploaroid">
+                    <img src="images/qiu.jpg" style="width: 100%">
+                    <div class="container">
+                        <p>“远上寒山石径斜 &emsp;白云深处有人家
+                            <br/><br/>
+                            停车坐爱枫林晚 &emsp;霜叶红于二月花”
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+  <script src="https://eqcn.ajz.miesnfu.com/wp-content/plugins/wp-3d-pony/live2dw/lib/L2Dwidget.min.js"></script>
+  <script>
+      L2Dwidget.init({
+          "model": {
+              jsonPath: "https://unpkg.com/live2d-widget-model-hijiki/assets/hijiki.model.json",<!--这里改模型，前面后面都要改-->
+              "scale": 1
+          },
+          "display": {
+              "position": "left",<!--设置看板娘的上下左右位置-->
+              "width": 100,
+              "height": 200,
+              "hOffset": 70,
+              "vOffset": 0
+          },
+          "mobile": {
+              "show": true,
+              "scale": 0.5
+          },
+          "react": {
+              "opacityDefault": 0.9,<!--设置透明度-->
+              "opacityOnHover": 0.2
+          }
+      });
+  window.onload = function(){
+       $("#live2dcanvas").attr("style","position: fixed; opacity: 0.7; left: 70px; bottom: 0px; z-index: 1; pointer-events: none;")
+  }
+  </script>
+
+    <div class="footer">
+        <button class="button"><a href="https://github.com/karin0018">github</a> </button>
+    </div>
+</div>
+</body>
+</html>

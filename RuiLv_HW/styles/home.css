@@ -1,0 +1,313 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* 标题 */
+.header {
+    padding-top: 250px;
+    text-align: center;
+    /*background: #1abc9c;*/
+    color: white;
+    font-family: "Microsoft Yahei", sans-serif;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+}
+
+/*头像*/
+.mypic {
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+.mypic:hover {
+    background-color: transparent;
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.mypic img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+/* 标题字体加大 */
+.header h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 30px;
+    font-family: "Microsoft JhengHei UI", sans-serif;
+}
+
+/*---主体部分---*/
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 64em;
+    max-width: 80%;
+}
+
+@media screen and (max-width: 480px) {
+
+    #wrapper {
+        max-width: calc(100% - 2em);
+    }
+
+}
+
+@media screen and (max-width: 360px) {
+
+    #wrapper {
+        max-width: 100%;
+    }
+
+}
+
+/*---Nav---*/
+#nav {
+    display: block;
+    background-color: #d4ddf0;
+    color: #636363;
+    position: absolute;
+    width: 64em;
+    max-width: 80%;
+    padding: 1em;
+    border-top-left-radius: 0.25em;
+    border-top-right-radius: 0.25em;
+    text-align: center;
+}
+
+
+#nav h1, #nav h2, #nav h3, #nav h4, #nav h5, #nav h6 {
+    color: #636363;
+}
+
+#nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#nav ul li {
+    border-radius: 15px 50px;
+    display: inline-block; /*横向导航栏*/
+    margin: 0 0.35em;
+    padding: 0;
+    vertical-align: middle; /*垂直对齐*/
+}
+
+#nav ul li a {
+    display: inline-block;
+    height: 2.25em;
+    line-height: 2.25em;
+    padding: 0 1.25em;
+    border: 0;
+    border-radius: 8px;
+}
+
+#nav ul li a:link {
+    color: #000000;
+    background-color: white;
+    text-decoration: none;
+}
+
+#nav ul li a:visited {
+    color: #666666;
+}
+
+#nav ul li a:hover {
+    background-color: #EAF2D3;
+    color: #636363;
+}
+
+#nav ul li a:active {
+    background-color: #dbdbdb;
+    box-shadow: none;
+}
+
+#nav ul li a.active {
+    background-color: #1abc9c;
+    box-shadow: none;
+}
+
+/*Main*/
+#nav + #main {
+    padding-top: 4.25em;
+}
+
+#main {
+    background-color: #ffffff;
+    color: #636363;
+    border-radius: 0.25em;
+}
+
+#main a:hover {
+    color: #636363;
+}
+
+#main h1, #main h2, #main h3, #main h4, #main h5, #main h6 {
+    color: #636363;
+}
+
+#main hr {
+    border-bottom-color: #dddddd;
+}
+
+#main > .main {
+    padding: 5em 5em 3em 5em;
+    border-top: solid 1px #dddddd;
+}
+
+.spotlight {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: inherit;
+    height: auto;
+}
+
+.spotlight .content {
+    -webkit-flex: 1;
+    flex: 1; /*flex属性是flex-grow, flex-shrink 和 flex-basis的简写，默认值为0 1 auto*/
+    font-family: "Monotype Corsiva", "Apple Chancery", "URW Chancery L", cursive;
+    text-align: left;
+    width: 40%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background-color: #d4ddf0;
+    box-shadow: 10px 10px 5px grey;
+}
+
+.spotlight .content h1 h2 h3 h4 p {
+    word-wrap: break-word;
+}
+
+.spotlight .content a {
+    display: inline-block;
+    height: 2.25em;
+    line-height: 2.25em;
+    padding: 0 1.25em;
+    border: 0;
+    border-radius: 8px;
+    font-family: "Monotype Corsiva", "Apple Chancery", "URW Chancery L", cursive;
+    font-size: 25px;
+}
+
+.spotlight .content ul li {
+    font-family: "Monotype Corsiva", "Apple Chancery", "URW Chancery L", cursive;
+    font-size: 25px;
+    word-wrap: break-word;
+}
+
+.spotlight .content ul li a:link {
+    color: #636363;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.spotlight .content ul li a:visited {
+    color: #666666;
+}
+
+.spotlight .content ul li a:hover {
+    background-color: #EAF2D3;
+    color: #636363;
+}
+
+.spotlight .content ul li a:active {
+    background-color: #dbdbdb;
+    box-shadow: none;
+}
+
+/*卡片样式*/
+.spotlight .ploaroid {
+    width: 40%;
+    height: auto;
+    float: right;
+    display: inline-block;
+    margin-left: 4em;
+    padding: 0.65em;
+    border: solid 1px;
+    border-color: #d4ddf0;
+    background-color: white;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.spotlight .container {
+    padding: 10px 20px;
+
+}
+
+.spotlight .container p {
+    font-size: 25px;
+    word-wrap: break-word;
+}
+
+/* body 样式 */
+body {
+    font-size: 25px;
+    font-family: "Microsoft Yahei", sans-serif;
+    margin: 0;
+    background-image: url("../images/homepage.jfif");
+    background-repeat: no-repeat; /*背景图不重复*/
+    background-size: 100% 100%;
+    background-attachment: fixed; /*防止背景图滚动*/
+}
+
+/* 底部 */
+.footer {
+    padding: 40px;
+    text-align: center;
+    background: transparent;
+    position: absolute;
+    width: 64em;
+    max-width: 80%;
+    border-bottom-left-radius: 0.25em;
+    border-bottom-right-radius: 0.25em;
+}
+
+.footer h1 h2 h3 h4 h5 p {
+    color: white;
+}
+
+.button {
+    background-color: white;
+    opacity: 0.6;
+    border: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 100%;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.button a:link {
+    text-decoration: none;
+}
+
+.button a:hover {
+    color: #1abc9c;
+}
+
+
